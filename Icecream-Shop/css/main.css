@@ -1,0 +1,46 @@
+
+.product1{
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+   
+}
+p{
+    font-size: 20px;
+    font-style: italic;
+}
+.product1 h1{
+    color: brown;
+    margin-bottom: 10px;
+}
+.pimg img{
+    
+    width: 900px;
+}
+.cn{
+    display: flex;
+    }
+.imgice img {
+    width: 700px;
+   
+}
+
+.textice {  
+    width: 40%;
+   
+}
+.slider1{
+    padding-top: 60px;
+}
+
+.footer{
+    background-color: brown;
+    position: relative;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 40px;
+    
+}

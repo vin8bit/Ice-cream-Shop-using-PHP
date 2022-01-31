@@ -1,0 +1,119 @@
+h2{
+  color: brown;
+}
+.product_wrapper {
+  display: inline-block;
+  margin: 0 auto;
+  width: 250px;
+	padding: 20px;
+	text-align: center;
+	}
+.product_wrapper:hover {
+	box-shadow: 0 0 0 2px #e5e5e5;
+	cursor:pointer;
+	}
+.product_wrapper .name {
+  font-weight:bold;
+  color: brown;
+	}
+.product_wrapper .buy {
+	text-transform: uppercase;
+    background: brown;
+    border: 1px solid brown;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 40px;
+    margin-top: 10px;
+}
+.product_wrapper .buy:hover {
+	background: brown;
+    border-color: brown;
+}
+.message_box .box{
+	margin: 10px 0px;
+    border: 1px solid #2b772e;
+    text-align: center;
+    font-weight: bold;
+    color: #2b772e;
+	}
+.table td {
+	border-bottom: #F0F0F0 1px solid;
+	padding: 10px;
+	}
+.cart_div {
+	float:left;
+	font-weight:bold;
+	position:relative;
+	}
+.cart_div a {
+	color:brown;
+	}	
+.cart_div span {
+	font-size: 12px;
+    line-height: 14px;
+    background: brown;
+    padding: 2px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+  
+    color: #fff;
+    width: 14px;
+    height: 13px;
+    text-align: center;
+	}
+.cart .remove {
+    background: none;
+    border: none;
+    color: #0067ab;
+    cursor: pointer;
+    padding: 0px;
+	}
+.cart .remove:hover {
+	text-decoration:underline;
+	}
+	
+	
+	
+
+ /* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #f44336; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+} 	
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button{
+  border-radius: 10px;
+}
+.button2 {background-color: #4CAF50;} 
+.button1 {background-color: brown;} 	
+

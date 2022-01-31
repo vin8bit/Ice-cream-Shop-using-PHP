@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    
+}
+.or-container{
+    border-radius: 10px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-color: brown;
+    color:  white;
+    padding: 20px;
+    box-sizing: border-box;
+    
+}
+.or-container h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+input{
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    height: 40px;
+   
+    margin-bottom: 20px;
+}
+.submitbtn{
+    background-color: green;
+    font-size: 20px;
+   
+    border: 0px solid;
+    color: white;
+}
+.submitbtn:hover{
+    color: green;
+    background-color: white;
+}
+
+

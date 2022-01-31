@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+.cardmenu {
+	margin-right: 80px;
+    margin-top: 20px;
+	font-weight:bold;
+	}
+.cardmenu a {
+	color:#000;
+	}
+.cardmenu span {
+	font-size: 12px;
+    line-height: 14px;
+    background: #F68B1E;
+    padding: 2px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+    color: #fff;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+	}
+nav{
+	
+    position: fixed;
+    z-index: 10;
+    height: 60px;
+    margin-left: 10%;
+    width: 80%;
+    background-color:brown;
+}
+
+.header{
+    height: 60px;
+    width: 100%;
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-div{
+
+    height: 100%;
+    width: 180px;
+    color:  white;
+    margin-left: 10px;
+    margin-top: 15px;
+    justify-content: flex-start;
+}
+
+.logo-div a{
+    color: white;
+    font-size: 26px;
+    color: darkblue;
+    letter-spacing: 1px;
+}
+.header-menu{
+	
+    margin-left: 10px;
+}
+.header-menu ul{
+    display: flex;
+   
+	float: left;
+}
+
+.header-menu ul li{
+    padding-left: 25px;
+    padding-top: 20px;
+    text-align: center;
+    color:white;
+    font-size: 17px;
+}
+.header-menu ul li a:hover{
+    background-color: green;
+  
+}
+
+/* Header Responsive css */
+.toggle-btn{
+    width: 35px;
+    height: 35px;
+    float: right;
+    font-size: 25px;
+    margin: -50px 20px 0 0;
+    cursor: pointer;
+    display: none;
+}
+
+.r-menu{
+    transform: translateY(-200%);
+    transition: 0.5s;
+}
+
+.r-menu ul a li{
+    border-bottom: 1px solid black;
+    padding: 15px;
+    text-align: center;
+    font: bold 18px arial;
+    background-color: #262626;
+    color: #fff;
+}
+
+#nav-chk:checked ~ .r-menu{
+    transform: translate(0%)
+}
+
+#nav-chk{
+    display: none;
+}
+
+/* Responsive Header */
+@media screen and (max-width: 720px) {
+    .toggle-btn{
+		 margin-right: 100px;
+        display: block;
+    }
+    .header-menu{
+        display: none;
+    }  
+.logo-div{
+    margin-left: 30px;
+  
+}	
+    
+/* Slider */
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    margin: auto;
+    z-index: 2;
+}
+
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}

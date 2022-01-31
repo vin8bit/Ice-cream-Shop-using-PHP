@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+}
+
+.main{
+   
+    padding: 20px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    background-color: pink;
+}
+h1{
+    color: brown;
+}
+.feedback{
+    width: 100%;
+    padding: 30px;
+    padding-bottom: 0%;
+    display: flex;
+}
+.text{
+    width: 450px;
+   
+}
+
+.text p{
+    margin-top: 20px;
+    word-spacing: 10px;
+    font-style: italic;
+    font-size: 20px;
+    line-height: 40px;
+}
+.img{
+   
+    margin-left: 60px;
+}
+.img img{
+    width: 400px;
+}
+textarea{
+    font-size: 20px;
+}
+.btn{
+    width: 150px;
+    margin-top: 10px;
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: brown;
+}
+.btn:hover{
+    background-color: orangered;
+}

@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+body{
+    width: 100%;
+    padding: 20px;
+}
+.container{
+    text-align: center;
+    display: flex;
+    width: 100%;
+}
+
+.welcome{
+    width: 70%;
+    text-align: center;
+}
+.welcome h1{
+    color: brown;
+    margin-top: 20px;
+    
+}
+
+
+
+
+.nav1{
+    width: 30%;
+    border-radius: 20px;
+    background-color: pink;
+    padding: 20px;
+    text-decoration: none;
+    
+}
+.nav1 ul li{
+    width: 100%;
+    display: block;
+    font-size: 20px;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+    background-color: brown;
+    padding: 20px;
+    border: 2px solid white;
+    transition: 500ms;
+    
+}
+.nav1 ul li:hover{
+    background-color: orangered;
+}
+.container p{
+    padding: 20px;
+    word-spacing: 10px;
+    text-align: justify;
+
+}
